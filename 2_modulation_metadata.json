@@ -1,0 +1,7 @@
+{
+  "modulation_type": "8FSK",
+  "constellation_size": 8,
+  "padding": 1,
+  "bits_per_character": 8,
+  "total_symbols": 426667
+}
