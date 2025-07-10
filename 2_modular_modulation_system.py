@@ -246,7 +246,7 @@ class ModulationSystem:
         while True:
             file_path = input("\nIngrese la ruta del archivo de bits (Enter para usar por defecto): ").strip()
             if file_path == "":
-                file_path = r"C:/Users/elosc/Desktop/Universidad/STransmision/1-senal_codificada.txt"
+                file_path = r"1-senal_codificada.txt"
                 print(f"Usando ruta por defecto: {file_path}")
             
             if os.path.exists(file_path):
@@ -343,7 +343,7 @@ class ModulationSystem:
                 results = modulator.modulate(bits)
                 
                 # Crear directorio de salida si no existe
-                output_dir = r"C:/Users/elosc/Desktop/Universidad/STransmision/STransmision"
+                output_dir = os.getcwd()
                 os.makedirs(output_dir, exist_ok=True)
                 
                 # Guardar resultados
