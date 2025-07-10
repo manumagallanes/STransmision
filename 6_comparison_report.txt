@@ -1,0 +1,33 @@
+REPORTE DE COMPARACIÓN - PROCESAMIENTO DE VOZ
+======================================================================
+
+Total de códigos binarios: 160000
+Total de bits: 1280000
+Tipo de modulación: 8FSK
+Constelación: 8
+Eb/N0: 5.23 dB
+Es/N0: 10.00 dB
+
+ANÁLISIS DE ERRORES
+----------------------------------------------------------------------
+Códigos binarios erróneos: 2344
+Porcentaje de códigos erróneos: 1.47%
+Bits erróneos: 3616
+Relación error/total bits: 0.002825
+Porcentaje de error por bit: 0.28%
+Probabilidad de error de símbolo: 0.008451
+Porcentaje de error de símbolo: 0.85%
+
+CÓDIGOS ERRÓNEOS DETALLADOS
+----------------------------------------------------------------------
+Posición	Original	Demodulado
+11	00011001	00010001
+17	00011000	00011111
+102	11100111	11100100
+103	11101001	01101001
+130	11001010	01001010
+256	00010111	00110111
+282	00100010	00110110
+396	00100101	00100001
+495	11100101	11100001
+549	01001100	01001111

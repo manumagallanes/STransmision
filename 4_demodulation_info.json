@@ -1,0 +1,14 @@
+{
+  "modulation_type": "8FSK",
+  "constellation_size": 8,
+  "total_symbols_processed": 426667,
+  "padding_removed": 1,
+  "bits_per_character": 8,
+  "elapsed_time": 9.815690994262695,
+  "snr_info": {
+    "Eb": 0.3333333333333333,
+    "Es": 1.0,
+    "Eb_N0_dB": 5.228787452803375,
+    "Es_N0_dB": 10.0
+  }
+}

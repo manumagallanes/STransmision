@@ -1,0 +1,13 @@
+{
+  "modulation_type": "8FSK",
+  "constellation_size": 8,
+  "total_symbols": 426667,
+  "padding": 1,
+  "N0": 0.1,
+  "snr_metrics": {
+    "Eb": 0.3333333333333333,
+    "Es": 1.0,
+    "Eb_N0_dB": 5.228787452803375,
+    "Es_N0_dB": 10.0
+  }
+}
