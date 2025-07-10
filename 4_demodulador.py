@@ -353,7 +353,7 @@ class DemodulationSystem:
         print("="*60)
         
         # Ruta base del sistema
-        base_path = r"C:/Users/elosc/Desktop/Universidad/STransmision/STransmision"
+        base_path = r"C:/Users/elosc/Desktop/Universidad/STransmision"
         
         try:
             # Cargar datos del canal
